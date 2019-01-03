@@ -1,0 +1,120 @@
+<md-toolbar> <button (click)="isOpened()" md-mini-fab><md-icon>list</md-icon></button>Eschool</md-toolbar>
+
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side" opened="{{Opened}}">
+
+    <md-nav-list>
+      <md-list-item>
+        <img md-list-avatar src="./../images/teacher.svg" alt="...">
+        <a [routerLink]="['/teacher']">Teachers</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/paper-plane.svg" alt="...">
+        <a [routerLink]="['/message']">Messages</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/reading.svg" alt="...">
+        <a [routerLink]="['/student']">Students</a>
+      </md-list-item>
+
+      <md-list-item><img md-list-avatar src="./../images/blackboard.svg" alt="...">
+        <a [routerLink]="['/class']">Class</a>
+      </md-list-item>
+      <md-list-item><img md-list-avatar src="./../images/translator.svg" alt="...">
+        <a [routerLink]="['/subject']">Subject</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/couple.svg" alt="...">
+        <a [routerLink]="['/parent']">Parents</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/van.svg" alt="...">
+        <a [routerLink]="['/van']">Van</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/radar.svg" alt="...">
+        <a [routerLink]="['/area']">Area</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/email.svg" alt="...">
+        <a [routerLink]="['/email']">Email</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/location-pointer.svg" alt="...">
+        <a [routerLink]="['/map']">Map</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/taxi-driver.svg" alt="...">
+        <a [routerLink]="['/driver']">Driver</a>
+      </md-list-item>
+
+
+      <!--  <md-list-item>
+        <img md-list-avatar src="./../images/browser.svg" alt="...">
+        <a [routerLink]="['/setting']">Setting</a>
+      </md-list-item>-->
+
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/logout.svg" alt="...">
+        <a (click)="logout()">LogOut</a>
+      </md-list-item>
+
+
+
+    </md-nav-list>
+
+  </md-sidenav>
+
+
+  <div class="flex-container" fxLayout="row">
+    <div fxFlex="50%" class="flex-container" fxLayout="column">
+      <md-input-container class="example-full-width">
+        <input md-input #driverName placeholder="Driver">
+      </md-input-container>
+
+      <md-input-container class="example-full-width">
+        <input md-input #email placeholder="email">
+      </md-input-container>
+
+
+      <md-input-container class="example-full-width">
+        <input md-input #password placeholder="password">
+      </md-input-container>
+
+      <md-input-container class="example-full-width">
+        <input md-input #phone placeholder="phone">
+      </md-input-container>
+
+      <button md-button (click)="saveDriver(driverName.value ,  email.value,password.value , phone.value)">Create</button>
+
+    </div>
+    <div fxFlex="50%" class="flex-container" fxLayout="column">
+      <div class="row">
+<!--        <div class="col-md-4">
+          <input *ngIf="config.filtering" placeholder="Filter all columns" [ngTableFiltering]="config.filtering" class="form-control"
+            (tableChanged)="onChangeTable(config)" />
+        </div>
+      </div>
+      <br>-->
+      </div>
+      <ng-table 
+        [config]="config" 
+        (tableChanged)="onChangeTable(config)" 
+        (cellClicked)="onCellClick($event)" 
+        [rows]="rows" 
+        [columns]="columns">
+      </ng-table>
+<!--      <pagination *ngIf="config.paging" class="pagination-sm" [(ngModel)]="page" [totalItems]="length" [itemsPerPage]="itemsPerPage"
+        [maxSize]="maxSize" [boundaryLinks]="true" [rotate]="false" (pageChanged)="onChangeTable(config, $event)" (numPages)="numPages = $event">
+      </pagination>-->
+      <pre *ngIf="config.paging" class="card card-block card-header">Page: {{page}} / {{numPages}}</pre>
+      <!--  <ng-table [config]="config" [rows]="rows" [columns]="columns">
+      </ng-table>-->
+    </div>
+
+  </div>
+</md-sidenav-container>

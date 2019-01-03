@@ -1,0 +1,120 @@
+<md-tab-group>
+  <md-tab label="Questions&Answers">
+
+    <md-card class="flex-container" fxLayout="column" *ngFor="let ques of questions ">
+      <div fxLayout="row">
+
+        <div fxLayout="column" fxLayoutAlign="center center" fxFlex="10%">
+          <div><img md-card-avatar [src]="ques.photoURL"></div>
+
+          <div>{{ ques.question.date | date:'shortDate'}}</div>
+        </div>
+
+        <div fxFlex>
+          <md-card-title>
+            {{ques.question.question}}
+          </md-card-title>
+        </div>
+      </div>
+
+
+
+      <div fxLayout="row" *ngFor="let ans of ques.answer let i = index; trackBy:  i ">
+
+        <div fxLayoutAlign="center center" fxLayout="column" fxFlex="10%">
+
+          <button (click)="up(ans, ques.question)" md-mini-fab><md-icon>keyboard_arrow_up</md-icon></button>
+          <div style="font-size: 20px">{{ans.count }}</div>
+          <button (click)="down(ans, ques.question)" md-mini-fab><md-icon>keyboard_arrow_down</md-icon></button>
+        </div>
+
+        <div fxLayout="column" fxFlex>
+
+          <div fxLayoutAlign="end end" fxFlex>edit</div>
+          <div style="background-color: aliceblue" fxFlex>
+            <md-card-title>{{ans.answer}}</md-card-title>
+          </div>
+
+
+          <div fxFlex>
+            <md-list>
+              <md-list-item *ngFor="let rep of  ans.reply | formArray"> {{rep.value.reply}} </md-list-item>
+            </md-list>
+
+          </div>
+          <div fxLayoutAlign="end end" fxFlex>
+
+
+          </div>
+
+          <div>
+            <md-input-container class="example-full-width">
+              <input #userreply placeholder="question" md-input placeholder="reply" value="">
+            </md-input-container>
+          </div>
+
+
+          <div>
+            <button (click)="reply(ans, ques.question,userreply.value)" md-button>reply</button>
+          </div>
+        </div>
+
+
+        <div fxFlex="10%">
+
+          <div><img md-card-avatar [src]="ans.photoURL"></div>
+          <div>{{ ans.date | date:'shortDate'}}</div>
+        </div>
+
+      </div>
+    </md-card>
+  </md-tab>
+
+
+  <md-tab *ngIf="!ask" label="Questions">
+    <div>
+
+      <md-nav-list>
+        <md-list-item *ngFor="let ques of questions">
+          <a (click)="selectQuestion(ques.question)">{{ques.question.question}}</a>
+        </md-list-item>
+      </md-nav-list>
+
+    </div>
+    <app-forum-detail [itemList]="selectedItem" (replay)="emitAnswer($event,selectedItem)"> </app-forum-detail>
+  </md-tab>
+
+
+  <md-tab *ngIf="ask" label=" Ask Questions">
+
+ <!--   <md-select placeholder="subjects" name="" id="" [(ngModel)]="subject">
+      <md-option *ngFor="let subject of subjects" [value]="subject">{{subject.name}}</md-option>
+    </md-select>-->
+    <div fxLayout="row">
+
+      <div fxFlex>
+        <md-input-container class="example-full-width">
+          <input #question placeholder="question" md-input placeholder="Ask Questsion" value="">
+        </md-input-container>
+      </div>
+
+      <div fxFlex>
+        <button md-raised-button (click)="addQuestion(subject,question.value)">Ask</button>
+      </div>
+    </div>
+
+
+  </md-tab>
+
+
+
+  <md-tab label=" All Questions">
+    <app-questions> </app-questions>
+  </md-tab>
+
+  <md-tab label="Topics">
+    <app-detailtopic> </app-detailtopic>
+  </md-tab>
+
+
+</md-tab-group>

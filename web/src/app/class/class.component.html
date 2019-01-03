@@ -1,0 +1,184 @@
+<md-toolbar> <button (click)="isOpened()" md-mini-fab><md-icon>list</md-icon></button>Eschool</md-toolbar>
+
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side" opened="{{Opened}}">
+
+    <md-nav-list>
+      <md-list-item>
+        <img md-list-avatar src="./../images/teacher.svg" alt="...">
+        <a [routerLink]="['/teacher']">Teachers</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/paper-plane.svg" alt="...">
+        <a [routerLink]="['/message']">Messages</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/reading.svg" alt="...">
+        <a [routerLink]="['/student']">Students</a>
+      </md-list-item>
+
+      <md-list-item><img md-list-avatar src="./../images/blackboard.svg" alt="...">
+        <a [routerLink]="['/class']">Class</a>
+      </md-list-item>
+      <md-list-item><img md-list-avatar src="./../images/translator.svg" alt="...">
+        <a [routerLink]="['/subject']">Subject</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/couple.svg" alt="...">
+        <a [routerLink]="['/parent']">Parents</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/van.svg" alt="...">
+        <a [routerLink]="['/van']">Van</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/radar.svg" alt="...">
+        <a [routerLink]="['/area']">Area</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/email.svg" alt="...">
+        <a [routerLink]="['/email']">Email</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/location-pointer.svg" alt="...">
+        <a [routerLink]="['/map']">Map</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/taxi-driver.svg" alt="...">
+        <a [routerLink]="['/driver']">Driver</a>
+      </md-list-item>
+
+
+      <!--   <md-list-item>
+        <img md-list-avatar src="./../images/browser.svg" alt="...">
+        <a [routerLink]="['/setting']">Setting</a>
+      </md-list-item>-->
+
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/logout.svg" alt="...">
+        <a (click)="logout()">LogOut</a>
+      </md-list-item>
+
+
+
+    </md-nav-list>
+
+  </md-sidenav>
+
+
+  <div class="flex-container" fxLayout="column" fxLayout.xs="column">
+
+    <div class="flex-item statusbar" fxFlex=20%></div>
+
+
+    <div fxLayout="row" fxLayout.xs="column">
+
+      <div class="flex-item" fxFlex=10%></div>
+
+      <div fxFlex>
+
+        <div class="flex-item form-border" fxLayout="column">
+
+          <!--          <div class="flex-item top-height"></div>
+
+          <div fxLayout="row" fxLayoutAlign="center center">
+
+            <div>
+              <button md-fab><md-icon>person</md-icon></button>
+            </div>
+
+            <div>
+              <button md-fab><md-icon>notifications</md-icon></button>
+            </div>
+
+            <div>
+              <button md-fab><md-icon>update</md-icon></button>
+            </div>
+
+            <div>
+              <button md-fab><md-icon>delete</md-icon></button>
+            </div>
+            <div>
+              <button md-fab><md-icon>arrow_back</md-icon></button>
+            </div>
+
+
+          </div>-->
+
+
+
+
+
+
+
+          <md-toolbar class="background" color="primary">Class</md-toolbar>
+
+
+
+          <div fxLayout="column" fxLayoutAlign="center center">
+
+
+
+
+
+            <md-tab-group>
+              <md-tab label="Class">
+
+                <div fxLayout="column" fxLayoutAlign="center center">
+
+                  <div class="flex-item ">
+                    <md-input-container class="text-width">
+                      <input #className md-input placeholder="Name">
+                    </md-input-container>
+                  </div>
+
+
+
+
+                  <div class="flex-item">
+                    <button md-fab (click)="addClass(className.value)"><md-icon>check</md-icon></button>
+                  </div>
+
+                </div>
+
+
+
+              </md-tab>
+
+
+
+              <md-tab label="Assign Teacher">
+                <app-class-teacher-registration (update)="change($event)"></app-class-teacher-registration>
+              </md-tab>
+
+
+
+              <md-tab label="Enroll Student">
+                <app-class-student-registration (update)="change($event)"></app-class-student-registration>
+              </md-tab>
+            </md-tab-group>
+
+
+
+
+          </div>
+
+          <div>
+
+            <app-class-detail [doRefresh]="refresh"> </app-class-detail>
+          </div>
+
+
+
+        </div>
+      </div>
+      <div class="flex-item" fxFlex=10%></div>
+
+    </div>
+  </div>
+
+</md-sidenav-container>

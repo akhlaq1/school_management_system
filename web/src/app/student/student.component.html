@@ -1,0 +1,156 @@
+<md-toolbar> <button (click)="isOpened()" md-mini-fab><md-icon>list</md-icon></button>Eschool</md-toolbar>
+
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side" opened="{{Opened}}">
+
+    <md-nav-list>
+      <md-list-item>
+        <img md-list-avatar src="./../images/teacher.svg" alt="...">
+        <a [routerLink]="['/teacher']">Teachers</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/paper-plane.svg" alt="...">
+        <a [routerLink]="['/message']">Messages</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/reading.svg" alt="...">
+        <a [routerLink]="['/student']">Students</a>
+      </md-list-item>
+
+      <md-list-item><img md-list-avatar src="./../images/blackboard.svg" alt="...">
+        <a [routerLink]="['/class']">Class</a>
+      </md-list-item>
+      <md-list-item><img md-list-avatar src="./../images/translator.svg" alt="...">
+        <a [routerLink]="['/subject']">Subject</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/couple.svg" alt="...">
+        <a [routerLink]="['/parent']">Parents</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/van.svg" alt="...">
+        <a [routerLink]="['/van']">Van</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/radar.svg" alt="...">
+        <a [routerLink]="['/area']">Area</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/email.svg" alt="...">
+        <a [routerLink]="['/email']">Email</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/location-pointer.svg" alt="...">
+        <a [routerLink]="['/map']">Map</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/taxi-driver.svg" alt="...">
+        <a [routerLink]="['/driver']">Driver</a>
+      </md-list-item>
+
+
+ <!--     <md-list-item>
+        <img md-list-avatar src="./../images/browser.svg" alt="...">
+        <a [routerLink]="['/setting']">Setting</a>
+      </md-list-item>
+-->
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/logout.svg" alt="...">
+        <a (click)="logout()">LogOut</a>
+      </md-list-item>
+
+
+
+    </md-nav-list>
+
+  </md-sidenav>
+
+
+  <div class="flex-container" fxLayout="column" fxLayout.xs="column">
+
+    <div class="flex-item" fxFlex=20%></div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign.xs="start">
+
+      <div class="flex-item" fxFlex=30%></div>
+
+      <div fxFlex>
+
+        <div class="flex-item form-border" fxLayout="column" fxLayoutAlign="center center">
+
+
+          <div class="flex-item header">
+
+            <div class="flex-item top-height"></div>
+
+            <div class="flex-item top-height center">
+              <button md-fab><md-icon>person</md-icon></button>
+            </div>
+
+          </div>
+
+
+
+
+          <md-toolbar class="background" color="primary">Student</md-toolbar>
+
+
+          <div class="flex-item">
+            <md-input-container class="text-width">
+              <input #name md-input [(ngModel)]="student.name" placeholder="Name">
+            </md-input-container>
+          </div>
+
+          <div class="flex-item">
+            <md-input-container class="text-width">
+              <input #email   md-input placeholder="Email">
+            </md-input-container>
+          </div>
+
+          <div class="flex-item">
+            <md-input-container class="text-width">
+              <input #password  type="password" md-input placeholder="Password">
+            </md-input-container>
+          </div>
+
+          <div class="flex-item">
+            <md-input-container class="text-width">
+              <input #phone  [(ngModel)]="student.phoneNo"   md-input placeholder="phone">
+            </md-input-container>
+          </div>
+
+
+
+          <div *ngIf="!eidtMode" class="flex-item">
+            <button md-fab (click)="addStudent(name.value,email.value,password.value,phone.value)"><md-icon>check</md-icon></button>
+          </div>
+
+
+          <div *ngIf="eidtMode" class="flex-item">
+            <button md-fab (click)="editStudent(name,email,phone)"><md-icon>check</md-icon></button>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="flex-item" fxFlex=30%></div>
+
+    </div>
+
+
+
+      <ng-table 
+        [config]="config" 
+        (tableChanged)="onChangeTable(config)" 
+        (cellClicked)="onCellClick($event)" 
+        [rows]="rows" 
+        [columns]="columns">
+       </ng-table>
+
+
+  </div>
+
+</md-sidenav-container>

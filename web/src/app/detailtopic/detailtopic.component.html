@@ -1,0 +1,19 @@
+<div fxLayout="row">
+  <md-select placeholder="Topic">
+    <md-option value="5965d8cde293d21680108767">
+      disease
+    </md-option>
+  </md-select>
+  <button md-button (click)="search('5965d8cde293d21680108767')">search </button>
+</div>
+
+
+
+<md-list>
+  <md-nav-list>
+
+    <md-list-item *ngFor="let question of questions">
+      {{question.question}}
+    </md-list-item>
+  </md-nav-list>
+</md-list>

@@ -1,0 +1,60 @@
+<md-list>
+  <md-nav-list>
+    <div   *ngFor="let ques of questions">
+      <md-list-item #item  (click)="hit(ques,item)">
+        <img md-list-avatar src="{{ques.photoURL}}" alt="...">
+        <a> {{ques.question.question}}</a>
+      </md-list-item>
+      
+      <div  fxLayout="row" *ngFor="let ans of ques.answer let i = index; trackBy:  i ">
+
+        <div *ngIf="isAns" fxLayoutAlign="center center" fxLayout="column" fxFlex="10%">
+
+          <!--<button (click)="up(ans, ques.question)" md-mini-fab><md-icon>keyboard_arrow_up</md-icon></button>-->
+          <div style="font-size: 20px">{{ans.count }}</div>
+          <!--<button (click)="down(ans, ques.question)" md-mini-fab><md-icon>keyboard_arrow_down</md-icon></button>-->
+        </div>
+
+        <div *ngIf="isAns"    fxLayout="column" fxFlex>
+
+          <!--<div fxLayoutAlign="end end" fxFlex>edit</div>-->
+          <div style="background-color: aliceblue" fxFlex>
+            <md-card-title>{{ans.answer}}</md-card-title>
+          </div>
+
+
+<!--          <div fxFlex>
+            <md-list>
+              <md-list-item *ngFor="let rep of  ans.reply | formArray"> {{rep.value.reply}} </md-list-item>
+            </md-list>
+
+          </div>-->
+          <div fxLayoutAlign="end end" fxFlex>
+
+
+          </div>
+
+<!--          <div>
+            <md-input-container class="example-full-width">
+              <input #userreply placeholder="question" md-input placeholder="reply" value="">
+            </md-input-container>
+          </div>
+-->
+
+<!--          <div>
+            <button (click)="reply(ans, ques.question,userreply.value)" md-button>reply</button>
+          </div>-->
+        </div>
+
+
+        <div *ngIf="isAns" fxFlex="10%">
+
+          <div><img md-card-avatar [src]="ans.photoURL"></div>
+          <div>{{ ans.date | date:'shortDate'}}</div>
+        </div>
+
+      </div>
+
+    </div>
+  </md-nav-list>
+</md-list>

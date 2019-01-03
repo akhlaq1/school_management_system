@@ -1,0 +1,14 @@
+driver {
+   pointer-events: none;
+    #driverlocator{
+        background-image: url('../img/bus-icon.png');
+        position:absolute;
+        left:50%;
+        top:50%;
+        width: 32px;
+        height:32px;
+        margin-left:-32px;
+        margin-top: -64px
+
+    }
+}

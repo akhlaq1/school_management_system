@@ -1,0 +1,90 @@
+<div class="flex-container" fxLayout="column" fxLayout.xs="column">
+  <div class="flex-item" fxFlex></div>
+  <md-card>
+    <md-card-header style="margin-bottom: 3em">
+      <div fxFlex fxLayout="row">
+
+        <div fxFlex *ngIf="!edit">
+          <img md-card-avatar [src]="photoURL" width="100px" height="100px" />
+          <md-card-title> {{ProfileName}}</md-card-title>
+          <md-card-subtitle>
+            <a (click)="doEdit()">Edit</a> | <a (click)="logout()">Logout</a>
+          </md-card-subtitle>
+        </div>
+
+        <div *ngIf="edit">
+          <input placeholder="chose photo" type="file" #photo>
+          <md-input-container>
+            <input md-input placeholder="Name" #name [(ngModel)]="ProfileName">
+          </md-input-container>
+          <button (click)="update(name.value,photo)">done</button>
+        </div>
+        
+        <div style="z-index: 12" fxFlex="20%">
+          <app-notification></app-notification>
+        </div>
+        <div item-height="100%" fxFlex="20%">
+          <app-rank [rankTeacher]="qns"></app-rank>          
+        </div>
+
+        <div fxFlex="20%">
+          <app-ranking [rankTeacher]="qns"></app-ranking>
+        </div>
+      </div>
+      
+
+
+    </md-card-header>
+
+
+
+
+    <md-card-content>
+      <!--<app-forum></app-forum>-->
+
+      <div fxLayout="row">
+        <div fxFlex>
+          <app-forum (rankDetail)="abc($event)"></app-forum>
+        </div>
+      </div>
+
+    </md-card-content>
+
+
+    <md-card-footer>
+
+    </md-card-footer>
+
+  </md-card>
+
+</div>
+
+
+<!--
+<div *ngIf="!edit">
+  <img [src]="photoURL" width="100px" height="100px"> {{ProfileName}}
+  <button (click)="doEdit()">Edit</button>
+</div>
+
+<div *ngIf="edit">
+  <input type="text" type="file" #photo />
+  <input type="text" #name [(ngModel)]="ProfileName" />
+
+  <button (click)="update(name.value,photo)">done</button>
+</div>
+
+<button (click)="logout()">LogOut </button>
+
+
+
+
+<ul>
+  <li *ngFor="let subject of subjects">
+    <div>{{subject.name}}</div>
+    <ul>
+      <li *ngFor="let question of questions">
+        <div>{{question.question}}</div>
+      </li>
+    </ul>
+  </li>
+</ul>-->

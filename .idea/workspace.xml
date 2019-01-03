@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e9d6d0c-d841-40bd-8027-cfc7bb82617a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.ts" afterPath="$PROJECT_DIR$/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/app.Service.ts" afterPath="$PROJECT_DIR$/web/src/app/app.Service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/forum/forum.component.html" afterPath="$PROJECT_DIR$/web/src/app/forum/forum.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/forum/forum.component.ts" afterPath="$PROJECT_DIR$/web/src/app/forum/forum.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/registration/registration.component.ts" afterPath="$PROJECT_DIR$/web/src/app/registration/registration.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/student-detail/student-detail.component.ts" afterPath="$PROJECT_DIR$/web/src/app/student-detail/student-detail.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/app/teacher-detail/teacher-detail.component.ts" afterPath="$PROJECT_DIR$/web/src/app/teacher-detail/teacher-detail.component.ts" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eschoolweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eschoolweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e9d6d0c-d841-40bd-8027-cfc7bb82617a" name="Default" comment="" />
+      <created>1490648007214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490648007214</updated>
+      <workItem from="1490650845927" duration="877000" />
+      <workItem from="1490711421014" duration="1054000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1931000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/web/e2e/app.e2e-spec.js" />
+        <option value="$PROJECT_DIR$/web/e2e/app.po.js" />
+        <option value="$PROJECT_DIR$/web/src/polyfills.js" />
+        <option value="$PROJECT_DIR$/web/src/test.js" />
+        <option value="$PROJECT_DIR$/web/src/main.js" />
+        <option value="$PROJECT_DIR$/web/src/app/app.firebaseService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/app.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/app.Service.js" />
+        <option value="$PROJECT_DIR$/web/src/app/app.authGuards.js" />
+        <option value="$PROJECT_DIR$/web/src/app/customhttp.js" />
+        <option value="$PROJECT_DIR$/web/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/web/src/app/index.js" />
+        <option value="$PROJECT_DIR$/web/src/app/form-array.pipe.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/form-array.pipe.js" />
+        <option value="$PROJECT_DIR$/web/src/app/sms/sms.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/sms/sms.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/van/van.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/van/vanService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/van/van.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/van/van.js" />
+        <option value="$PROJECT_DIR$/web/src/app/home/home.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/home/home.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/rank/rank.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/rank/rank.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/classService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class-detail/class-detail.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class-detail/class-detail.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class-student-registration/class-student-registration.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class-student-registration/class-student-registration.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class-teacher-registration/class-teacher-registration.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/class/class-teacher-registration/class-teacher-registration.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/email/email.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/email/emailService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/email/email.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/forum/forum.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/forum/forum.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/forum/forum-detail/forum-detail.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/forum/forum-detail/forum-detail.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/forum/forum-detail-ans/forum-detail-ans.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/forum/forum-detail-ans/forum-detail-ans.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/login/login.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/login/login.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/parent/parent.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/parent/parent.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/message/message.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/message/message.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/message/smsService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/setting/setting.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/setting/setting.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/student/student.js" />
+        <option value="$PROJECT_DIR$/web/src/app/student/student.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/student/student.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/student/studentService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subjectService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject-detail/subject-detail.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject-detail/subject-detail.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject-class-registration/subject-class-registration.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/subject/subject-class-registration/subject-class-registration.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/teacher/teacherService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/teacher/teacher.js" />
+        <option value="$PROJECT_DIR$/web/src/app/teacher/teacher.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/teacher/teacher.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/notification/notification.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/notification/notification.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/registration/registration.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/registration/registration.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/registration/registrationService.js" />
+        <option value="$PROJECT_DIR$/web/src/app/student-detail/student-detail.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/student-detail/student-detail.component.js" />
+        <option value="$PROJECT_DIR$/web/src/app/teacher-detail/teacher-detail.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/src/app/teacher-detail/teacher-detail.component.js" />
+        <option value="$PROJECT_DIR$/web/src/environments/environment.js" />
+        <option value="$PROJECT_DIR$/web/src/environments/environment.prod.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Subject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/ReplaySubject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Operator.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Notification.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/AsyncSubject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/InnerSubscriber.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Observer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/OuterSubscriber.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/SubjectSubscription.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Observable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/MiscJSDoc.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/BehaviorSubject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Scheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Subscription.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Subscriber.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/Rx.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/mergeMapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/bufferTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/retry.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/mergeAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/retryWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/takeLast.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/mergeScan.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/bufferWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/window.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/skipWhile.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/exhaust.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/timeoutWith.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/isEmpty.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/zip.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/elementAt.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/min.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/auditTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/toPromise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/count.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/delay.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/switchMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/toArray.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/catch.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/scan.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/timeInterval.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/sequenceEqual.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/ignoreElements.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/repeatWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/exhaustMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/sampleTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/timestamp.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/mergeMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/findIndex.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/dematerialize.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/take.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/skip.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/concatAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/distinct.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/skipUntil.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/max.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/windowTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/mapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/windowToggle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/throttleTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/publishLast.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/combineAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/groupBy.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/concatMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/every.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/pairwise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/switchMapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/finally.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/single.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/race.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/concatMapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/switch.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/sample.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/distinctUntilChanged.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/debounceTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/bufferToggle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/concat.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/windowCount.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/let.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/startWith.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/withLatestFrom.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/windowWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/timeout.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/takeWhile.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/throttle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/subscribeOn.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/partition.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/buffer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/share.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/first.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/materialize.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/expand.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/onErrorResumeNext.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/repeat.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/audit.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/defaultIfEmpty.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/do.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/publishBehavior.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/reduce.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/pluck.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/publishReplay.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/zipAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/multicast.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/distinctUntilKeyChanged.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/filter.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/takeUntil.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/bufferCount.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/combineLatest.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/publish.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/map.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/delayWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/last.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/observeOn.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/merge.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/debounce.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/operator/find.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/if.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/race.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/fromEvent.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/never.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/fromPromise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/concat.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/of.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/generate.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/range.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/bindNodeCallback.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/zip.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/bindCallback.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/combineLatest.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/from.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/empty.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/interval.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/pairs.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/onErrorResumeNext.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/forkJoin.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/defer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/using.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/throw.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/merge.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/timer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/fromEventPattern.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/dom/ajax.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/add/observable/dom/webSocket.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/FastMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/tryCatch.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/errorObject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/AnimationFrame.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/Map.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/MapPolyfill.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/applyMixins.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isPromise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isFunction.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/TimeoutError.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/noop.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/Immediate.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isNumeric.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/EmptyError.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isDate.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/UnsubscriptionError.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/root.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/Set.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/assign.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isArray.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/subscribeToResult.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/ObjectUnsubscribedError.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/isObject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/ArgumentOutOfRangeError.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/not.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/util/toSubscriber.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/symbol/rxSubscriber.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/symbol/iterator.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/symbol/observable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/testing/SubscriptionLog.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/testing/TestMessage.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/testing/ColdObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/testing/TestScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/testing/HotObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/testing/SubscriptionLoggable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/mergeMapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/bufferTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/retry.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/mergeAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/retryWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/takeLast.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/mergeScan.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/bufferWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/window.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/skipWhile.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/exhaust.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/timeoutWith.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/isEmpty.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/zip.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/elementAt.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/min.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/auditTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/toPromise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/count.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/delay.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/switchMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/toArray.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/catch.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/scan.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/timeInterval.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/sequenceEqual.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/ignoreElements.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/repeatWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/exhaustMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/sampleTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/timestamp.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/mergeMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/findIndex.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/dematerialize.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/take.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/skip.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/concatAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/distinct.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/skipUntil.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/max.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/windowTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/mapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/windowToggle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/throttleTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/publishLast.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/combineAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/groupBy.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/concatMap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/every.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/pairwise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/switchMapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/finally.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/single.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/race.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/concatMapTo.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/switch.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/sample.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/distinctUntilChanged.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/debounceTime.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/bufferToggle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/concat.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/windowCount.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/let.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/startWith.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/withLatestFrom.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/windowWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/timeout.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/takeWhile.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/throttle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/subscribeOn.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/partition.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/buffer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/share.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/first.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/materialize.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/expand.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/onErrorResumeNext.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/repeat.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/audit.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/defaultIfEmpty.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/do.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/publishBehavior.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/reduce.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/pluck.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/publishReplay.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/zipAll.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/multicast.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/distinctUntilKeyChanged.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/filter.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/takeUntil.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/bufferCount.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/combineLatest.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/publish.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/map.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/delayWhen.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/last.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/observeOn.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/merge.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/debounce.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/operator/find.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/async.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/QueueScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/Action.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/VirtualTimeScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/AsapScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/QueueAction.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/asap.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/AsapAction.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/AsyncAction.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/queue.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/animationFrame.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/AnimationFrameAction.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/AsyncScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/scheduler/AnimationFrameScheduler.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/if.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/fromEvent.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/SubscribeOnObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/GenerateObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/never.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/fromPromise.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/TimerObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/concat.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/FromObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/IteratorObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/UsingObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/FromEventPatternObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/FromEventObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/PromiseObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/ScalarObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/IntervalObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/BoundNodeCallbackObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/IfObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/of.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/ForkJoinObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/range.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/bindNodeCallback.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/zip.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/bindCallback.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/ArrayObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/combineLatest.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/from.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/ErrorObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/empty.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/interval.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/BoundCallbackObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/ArrayLikeObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/pairs.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/forkJoin.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/DeferObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/RangeObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/EmptyObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/defer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/using.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/throw.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/merge.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/PairsObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/timer.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/NeverObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/fromEventPattern.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/ConnectableObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/dom/ajax.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/dom/WebSocketSubject.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/dom/webSocket.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/dom/AjaxObservable.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/rxjs/src/observable/dom/MiscJSDoc.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tslint/scripts/buildDocs.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/es5processor.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/tsickle.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/jsdoc.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/rewriter.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/type-translator.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/util.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/cli_support.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/main.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/tsickle/src/decorator-annotator.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/node/fs.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/node/events.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/node/node.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/mocha/mocha.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/common/timers.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/common/utils.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/rollup-main.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/register-element.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/define-property.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/property-descriptor.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/websocket.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/event-target.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/browser/browser.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/jasmine/jasmine.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/wtf.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/fake-async-test.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/long-stack-trace.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/async-test.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/task-tracking.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/proxy.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/zone.js/lib/zone-spec/sync-test.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/confPageObjects.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/angularPage.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/plugins.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/conf.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/specPageObjects.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/asyncAwait/conf.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/protractor/exampleTypescript/asyncAwait/spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/typescript/Gulpfile.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/e2e/app.e2e-spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/e2e/app.po.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/polyfills.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/test.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/main.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/app/app.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/app/app.component.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/app/app.module.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/app/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/environments/environment.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/ng2/files/__path__/environments/environment.prod.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/enum/files/__path__/__name__.enum.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/pipe/files/__path__/__name__.pipe.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/pipe/files/__path__/__name__.pipe.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/class/files/__path__/__name__.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/class/files/__path__/__name__.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/mobile/files/__path__/main-app-shell.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/module/files/__path__/__name__-routing.module.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/module/files/__path__/__name__.module.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/module/files/__path__/__name__.module.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/service/files/__path__/__name__.service.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/service/files/__path__/__name__.service.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/component/files/__path__/__name__.component.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/component/files/__path__/__name__.component.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/directive/files/__path__/__name__.directive.spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/directive/files/__path__/__name__.directive.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/angular-cli/blueprints/interface/files/__path__/__name__.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/Reflect.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/Reflect.js.map" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/harness.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/run.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/spec.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-definemetadata.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-hasownmetadata.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-getmetadatakeys.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-metadata.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-decorate.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-getmetadata.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-deletemetadata.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-getownmetadata.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-getownmetadatakeys.js" />
+        <option value="$PROJECT_DIR$/web/node_modules/reflect-metadata/test/reflect/reflect-hasmetadata.js" />
+        <option value="$PROJECT_DIR$/dump/index.js" />
+        <option value="$PROJECT_DIR$/trash/departmentactivity.js" />
+        <option value="$PROJECT_DIR$/schema/event.js" />
+        <option value="$PROJECT_DIR$/schema/area.js" />
+        <option value="$PROJECT_DIR$/schema/problem.js" />
+        <option value="$PROJECT_DIR$/schema/email.js" />
+        <option value="$PROJECT_DIR$/schema/subject.js" />
+        <option value="$PROJECT_DIR$/schema/van.js" />
+        <option value="$PROJECT_DIR$/schema/studentsession.js" />
+        <option value="$PROJECT_DIR$/schema/studentIntract.js" />
+        <option value="$PROJECT_DIR$/schema/teacher.js" />
+        <option value="$PROJECT_DIR$/schema/department.js" />
+        <option value="$PROJECT_DIR$/schema/enrollement.js" />
+        <option value="$PROJECT_DIR$/schema/authentication.js" />
+        <option value="$PROJECT_DIR$/schema/vote.js" />
+        <option value="$PROJECT_DIR$/schema/teacherinteract.js" />
+        <option value="$PROJECT_DIR$/schema/vanregistration.js" />
+        <option value="$PROJECT_DIR$/schema/studentactivity.js" />
+        <option value="$PROJECT_DIR$/schema/teacheractivity.js" />
+        <option value="$PROJECT_DIR$/schema/notification.js" />
+        <option value="$PROJECT_DIR$/schema/parent.js" />
+        <option value="$PROJECT_DIR$/schema/student.js" />
+        <option value="$PROJECT_DIR$/schema/class.js" />
+        <option value="$PROJECT_DIR$/schema/calendar.js" />
+        <option value="$PROJECT_DIR$/schema/solution.js" />
+        <option value="$PROJECT_DIR$/database/connection.js" />
+        <option value="$PROJECT_DIR$/email-setup/email-function.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<!--<table>
+  <thead>All Subject</thead>
+  <tbody>
+    <tr *ngFor="let subject of subjects">
+      <td>{{subject.name}}</td>
+    </tr>
+  </tbody>
+</table>
+-->
+
+<div fxLayout="row">
+
+  <div fxFlex="50%">
+
+    <md-list>
+      <md-list-item *ngFor="let subject of subjects">
+
+        <div> {{subject.name}}</div>
+        <div><button md-button (click)="detail(subject._id)">detail</button></div>
+
+      </md-list-item>
+    </md-list>
+  </div>
+
+  <div style="padding-top:10px" fxFlex="50%">
+
+    <div> {{teacher?.teacherid?.name}}</div>
+    <div> {{teacher?.teacherid?.emailId}}</div>
+    <div> {{teacher?.teacherid?.phoneNo}}</div>
+    <div> {{teacher?.teacherid?.qualification}}</div>
+
+    <!--<md-list>
+      <md-list-item *ngFor="let assignsubject of assignsubjects">
+        <span *ngIf="assignsubject.teacherid">{{assignsubject.teacherid.name}} </span>
+      </md-list-item>
+    </md-list>-->
+  </div>
+
+
+</div>
+
+
+<!--
+<div class="flex-item margin">
+  <md-select placeholder="subject" [(ngModel)]="subject">
+    <md-option  [value]="subject"></md-option>
+  </md-select>
+</div>-->
+
+
+<!--
+<table>
+  <thead>Assign Subject</thead>
+  <tbody>
+    <tr *ngFor="let assignsubject of assignsubjects">
+
+      <!-- <td>{{(assignsubject.name)}}</td> | <td>{{assignsubject.teacherid.name}}</td>
+    </tr>
+  </tbody>
+</table>-->

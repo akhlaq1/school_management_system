@@ -1,0 +1,33 @@
+section {
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  margin: auto;
+  position: relative !important;
+  padding-bottom: 10px;
+  width: 60%;
+ 
+ 
+}
+section > div {
+  padding: 2% ;
+  
+}
+ md-button , md-raised-button, md-fab {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+md-content {
+  margin-right: 7px;
+}
+.label {
+  position: absolute;
+  bottom: 5px;
+  left: 7px;
+  font-size: 14px;
+  opacity: 0.54;
+}
+
+md-toolbar{
+  /*  background-color: rgba(165, 255, 193, 0.5)*/
+}

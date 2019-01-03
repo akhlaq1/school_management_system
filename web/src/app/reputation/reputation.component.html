@@ -1,0 +1,21 @@
+<div style="text-align:center" fxFlexAlign="center" fxLayout="row" *ngFor="let q of teacherRepo">
+
+  <md-card>
+    
+    
+    <img md-card-avatar [src]="q.profile" width="100px" height="100px" />
+  </md-card>
+
+  <md-card>
+    <div> Ask Question :{{q.questions}}</div>
+    <div> Qiven Answer : {{q.answers}} </div>
+
+  </md-card>
+  <md-card>
+    <md-progress-spinner mode="determinate" value=100>
+    </md-progress-spinner>
+  </md-card>
+
+  
+
+</div>

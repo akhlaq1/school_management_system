@@ -1,0 +1,14 @@
+
+<button (click)="doShow()" md-mini-fab class="badge1" [attr.data-badge]="badge"><md-icon>notifications</md-icon></button>
+<md-list [hidden]="!show">
+  <md-list-item style="background-color: lightgoldenrodyellow;border:1px solid  ivory "
+   *ngFor="let message of messages | formArray">
+   
+<img md-list-avatar [src]="message.value.stdPhoto" alt="...">
+<h3 md-line> {{message.value.username}} </h3>
+<p md-line>
+  <span> {{message.value.subject}} </span>
+   <span class="demo-2"> -- {{message.value.date | date:'shortDate'}} </span>
+</p>
+</md-list-item>
+</md-list>

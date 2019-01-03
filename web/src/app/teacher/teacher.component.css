@@ -1,0 +1,36 @@
+.top-height{
+  height: 44px;
+  
+}
+
+.text-width{
+  width: 100%;
+
+}
+.form-border{
+   border: solid 1px #dedfe4;   
+   border-top:0px;
+   background-color: rgba(255,255,255,1)
+}
+.background {
+  
+}
+.header{
+  height: 88px;
+  width: 100%;
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.center{
+  text-align: center;
+}
+md-toolbar {
+    margin: 10;
+    
+  
+}
+.customn{
+  background-color: rgba(245, 224, 224, 0.5) !important
+}

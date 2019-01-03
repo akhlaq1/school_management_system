@@ -1,0 +1,26 @@
+
+<div fxLayout="column" fxLayoutAlign="center center">
+
+  <div (click)="updateStudent" class="flex-item margin ">
+    <md-select placeholder="student " [(ngModel)]="student">
+      <md-option *ngFor="let student of students " [value]="student ">{{student.name}}</md-option>
+    </md-select>
+  </div>
+
+  <div (click)="updateClass()" class="flex-item margin ">
+    <md-select placeholder="class " [(ngModel)]="class ">
+
+      <md-option *ngFor="let class of enrolledclass " [value]="class ">
+        <span *ngIf="class.classid != null">
+        {{class.classid.name}}
+        </span>
+      </md-option>
+    </md-select>
+  </div>
+
+
+  <div class="flex-item ">
+    <button md-fab (click)="assignStudent(class._id ,student._id)"><md-icon>check</md-icon></button>
+  </div>
+
+</div>

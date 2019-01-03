@@ -1,0 +1,17 @@
+<div class="wrapper">
+    <div id="map"></div>    
+    <pickup [map]="map" (update)="isMapLoaded($event)"  [isLoaded]="loader"></pickup>
+    <!--<trip  (isTripStart)="isTripStart"  [startTrip]="isPickUpRequested" >   </trip>-->
+    <driver
+     [DriverId]="gettedId" 
+     [startTrip]="isPickUpRequested" 
+     [map]="map"
+     (update)="isMapLoaded($event)" 
+     [isLoaded]="loader" 
+     > 
+     </driver>
+    <div *ngIf="isPickUpRequested">
+    <waypoints  [map]="map"></waypoints>
+    </div>
+
+</div>

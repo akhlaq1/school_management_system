@@ -1,0 +1,114 @@
+<!-- <input type="text" type="file" #photo />
+  
+Name : <input type="text" #name>
+
+<span [(ngModel)]="ProfileName">{{ProfileName}}  </span>-->
+
+
+<div class="flex-container" fxLayout="column" fxLayout.xs="column">
+
+  <div class="flex-item" fxFlex></div>
+
+  <md-card>
+
+    <md-card-header style="margin-bottom: 3em">
+      <div fxFlex fxLayout="row">
+        <div fxFlex *ngIf="!edit">
+          <img md-card-avatar [src]="photoURL" width="100px" height="100px" />
+          <md-card-title> {{ProfileName}}</md-card-title>
+          <md-card-subtitle>
+            <a (click)="doEdit()">Edit</a> | <a (click)="logout()">Logout</a>
+          </md-card-subtitle>
+
+        </div>
+
+        <div *ngIf="edit">
+          <input placeholder="chose photo" type="file" #photo>
+          <md-input-container>
+            <input md-input placeholder="Name" #name [(ngModel)]="ProfileName">
+          </md-input-container>
+
+          <button (click)="update(name.value,photo)">done</button>
+        </div>
+
+        <div fxFlex>
+          <a (click)="doNotice()">Notice Board</a> |
+          <a (click)="doReputation()">Teacher Reputation</a>
+        </div>
+
+
+
+        <div style="z-index: 12" fxFlex="20%">
+          <app-notification></app-notification>
+        </div>
+      </div>
+
+    </md-card-header>
+
+
+
+
+
+    <md-card-content>
+      <!--<app-forum></app-forum>-->
+
+      <div fxLayout="row">
+        <div fxFlex>
+
+          <div [hidden]="!isReputation">
+            <app-forum [hidden]="isNotice"></app-forum>
+            <app-notice-board [hidden]="!isNotice"></app-notice-board>
+          </div>
+
+          <div style="text-align:center;padding:10px">
+            <app-reputation [hidden]="isReputation"></app-reputation>
+          </div>
+
+        </div>
+      </div>
+
+    </md-card-content>
+
+
+    <md-card-footer>
+
+
+
+
+
+    </md-card-footer>
+
+  </md-card>
+
+</div>
+
+
+<!--
+
+<div *ngIf="!edit">
+  <img [src]="photoURL" width="100px" height="100px"> {{ProfileName}}
+  <button (click)="doEdit()">Edit</button>
+</div>
+
+<div *ngIf="edit">
+  <input type="text" type="file" #photo />
+  <input type="text" #name [(ngModel)]="ProfileName" />
+
+  <button (click)="update(name.value,photo)">done</button>
+</div>-->
+
+<!--<button >LogOut </button>-->
+<!--<button md-fab (click)="logout()"><md-icon>logout</md-icon></button>-->
+
+
+<!--
+<ul>
+  <li *ngFor="let subject of subjects">
+    <div>{{subject}}</div>
+    <ul>
+      <li *ngFor="let question of questions">
+        <div>{{question.question}}</div>
+      </li>
+    </ul>
+  </li>
+</ul>-->

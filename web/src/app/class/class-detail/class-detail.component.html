@@ -1,0 +1,85 @@
+<!--
+<div fxLayout="row" fxLayoutAlign="center center">
+  <div fxFlex="33%">
+    <md-toolbar class="customn">Enrolled Student</md-toolbar>
+    <md-list>
+      <md-list-item *ngFor="let enrolledStudent of enrolledStudents">
+        <span *ngIf="enrolledStudent.eid">
+          <span md-line> {{enrolledStudent?.name}} </span>
+        
+        </span>
+        
+      </md-list-item>
+    </md-list>
+  </div>
+
+  <div fxFlex="33%">
+    <md-list>
+      <md-toolbar class="customn">Enrolled Teacher</md-toolbar>
+      <md-list-item *ngFor="let enrolledTeacher of enrolledTeachers">
+        <span md-line> {{enrolledTeacher?.classid.name }} </span>
+        <span md-line> {{enrolledTeacher?.teacherId.name}} </span>
+      </md-list-item>
+
+    </md-list>
+
+  </div>-->
+
+<div fxFlex="33%">
+  <md-toolbar class="customn">Class Name</md-toolbar>
+
+
+  <div fxLayout="row" *ngFor="let class of allClasses">
+
+    <md-list>
+      <md-list-item>
+        <span style="padding-right: 20px">{{class.name}}</span>
+        
+        <button (click)="detailClass(class._id,'student')" md-button>view students</button>
+        <button (click)="detailClass(class._id,'teacher')" md-button>view teachers</button>
+      </md-list-item>
+
+
+    </md-list>
+
+  </div>
+
+  <div>SELECTED TEAACHER</div>
+  <div fxLayout="column">
+    <div *ngFor="let teacher of selectedTeacher">
+
+      <div fxLayout="row">
+        <div> {{teacher.teacherId.name}}</div>
+        <button md-button (click)="teacherDetail(teacher)">detail</button>
+        <div fxLayout="column" [hidden]="SpecificTeacher?.teacherId">
+
+
+          <div>PHONE:{{SpecificTeacher?.teacherId.phoneNo}}</div>
+          <div>ADDRESS:{{SpecificTeacher?.teacherId.address}}</div>
+          <div>EMAIL:{{SpecificTeacher?.teacherId.emailId}}</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div>SELETED STUDENT</div>
+  <div *ngFor="let student of selectedStudent">
+
+
+
+    <div fxLayout="row">
+      <div> {{student.name}} </div>
+      <button md-button (click)="studentDetail(student)">detail</button>
+
+      <div fxLayout="column" [hidden]="!student">
+        <div>PHONE:{{studentD?.phoneNo}}</div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!--
+</div>-->

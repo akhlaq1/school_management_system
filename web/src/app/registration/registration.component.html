@@ -1,0 +1,102 @@
+<!--<div layout="column">
+
+  <div style="height:44px" flex></div>
+
+  <section layout="column" layout-sm="column" layout-align="center center">
+
+
+    <div>
+      <button style="background-color:rgb(255,210,0)" md-fab class="md-fab" aria-label="Eat cake">
+      <i md-icon></i>
+    </button>
+    </div>
+
+    <div>
+      <md-toolbar>
+        <button md-button class="md-icon-button" aria-label="Settings">
+      <b>Registration</b>
+  </button>
+      </md-toolbar>
+    </div>
+
+    <div>
+      <md-input class="demo-full-width" placeholder="User Name" value=""></md-input>
+    </div>
+    <div>
+      <md-input class="demo-full-width" placeholder="Password" value=""></md-input>
+    </div>
+
+    <div>
+      <md-input class="demo-full-width" placeholder="Confrim Password" value=""></md-input>
+    </div>
+
+
+    <div style="text-align:center ;margin:auto; width:100px" >
+      <p>Selected Value: <span class="radioValue">{{ data.default }}</span></p>
+      <md-radio-group  [(ngModel)]="data.default" [ngModelOptions]="{standalone: true}">
+        <div style="text-align:left">
+          <md-radio-button value="Parent" class="md-primary">Parent</md-radio-button>
+        </div>
+        <div style="text-align:left">
+          <md-radio-button value="Student" checked="true"> Student</md-radio-button>
+        </div>
+
+        <div style="text-align:left">
+          <md-radio-button value="Van" class="md-warn">Van Reg </md-radio-button>
+        </div>
+
+      </md-radio-group>
+    </div>
+
+
+    <div>
+      <button md-raised-button  (click)="makeRequest()" class="md-raised md-primary">Register</button>
+    </div>
+  </section>
+</div>-->
+
+
+
+<div class="flex-container" fxLayout="column" fxLayout.xs="column">
+
+  <div class="flex-item top-height" fxFlex=20%></div>
+  <div fxLayout="row" fxLayout.xs="column" fxLayoutAlign.xs="start">
+
+    <div class="flex-item" fxFlex=20%></div>
+    <div fxFlex>
+      <div class="flex-item " fxLayout="column" fxLayoutAlign="center center">
+
+        <div>
+          <md-input-container class="example-full-width">
+            <input #name md-input placeholder="UserName">
+
+          </md-input-container>
+        </div>
+
+        <div>
+          <md-input-container class="example-full-width">
+            <input #emailId md-input placeholder="Email">
+
+          </md-input-container>
+        </div>
+
+        <div>
+          <md-input-container class="example-full-width">
+            <input #password type="password" md-input placeholder="password">
+
+          </md-input-container>
+        </div>
+
+
+        <div>
+          <div class="example-full-width">
+            <button md-fab (click)="addSchool(name.value,emailId.value,password.value)"><md-icon>check</md-icon></button>
+            <a md-raised-button routerLink="/login">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-item" fxFlex=20%></div>
+
+  </div>
+</div>

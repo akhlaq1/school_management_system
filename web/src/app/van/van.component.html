@@ -1,0 +1,234 @@
+<md-toolbar> <button (click)="isOpened()" md-mini-fab><md-icon>list</md-icon></button>Eschool</md-toolbar>
+
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side" opened="{{Opened}}">
+
+    <md-nav-list>
+      <md-list-item>
+        <img md-list-avatar src="./../images/teacher.svg" alt="...">
+        <a [routerLink]="['/teacher']">Teachers</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/paper-plane.svg" alt="...">
+        <a [routerLink]="['/message']">Messages</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/reading.svg" alt="...">
+        <a [routerLink]="['/student']">Students</a>
+      </md-list-item>
+
+      <md-list-item><img md-list-avatar src="./../images/blackboard.svg" alt="...">
+        <a [routerLink]="['/class']">Class</a>
+      </md-list-item>
+      <md-list-item><img md-list-avatar src="./../images/translator.svg" alt="...">
+        <a [routerLink]="['/subject']">Subject</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/couple.svg" alt="...">
+        <a [routerLink]="['/parent']">Parents</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/van.svg" alt="...">
+        <a [routerLink]="['/van']">Van</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/radar.svg" alt="...">
+        <a [routerLink]="['/area']">Area</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/email.svg" alt="...">
+        <a [routerLink]="['/email']">Email</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/location-pointer.svg" alt="...">
+        <a [routerLink]="['/map']">Map</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/taxi-driver.svg" alt="...">
+        <a [routerLink]="['/driver']">Driver</a>
+      </md-list-item>
+
+
+      <!-- <md-list-item>
+        <img md-list-avatar src="./../images/browser.svg" alt="...">
+        <a [routerLink]="['/setting']">Setting</a>
+      </md-list-item>-->
+
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/logout.svg" alt="...">
+        <a (click)="logout()">LogOut</a>
+      </md-list-item>
+
+
+
+    </md-nav-list>
+
+  </md-sidenav>
+
+
+
+  <div class="flex-container" fxLayout="row">
+
+
+    <div fxFlex="50%" class="flex-container" fxLayout="column">
+
+      <md-select placeholder="Area" (ngModelChange)="onChangeArea($event)" [(ngModel)]="selectedAreaObj">
+        <md-option [value]="a" *ngFor="let a of areas">{{a.area}}</md-option>
+      </md-select>
+      <!--{{selectedAreaObj | json}}-->
+
+
+      <md-select placeholder="Driver" [(ngModel)]="selectedDriverObj" (ngModelChange)="onChangeDriver($event)">
+        <md-option [value]="d" *ngFor="let d of drivers">{{d.driverName}}</md-option>
+      </md-select>
+
+
+      <md-select placeholder="Route" [(ngModel)]="selectedRoute" (ngModelChange)="onChangeRoute($event)">
+        <md-option [value]="d" *ngFor="let d of routes">{{d.title}}</md-option>
+      </md-select>
+
+
+
+      <md-input-container class="example-full-width">
+        <input md-input #vanname placeholder="van name">
+      </md-input-container>
+
+      <md-input-container class="example-full-width">
+        <input md-input #lisence placeholder="lisence">
+      </md-input-container>
+
+      <md-input-container class="example-full-width">
+        <input md-input #nic placeholder="nic">
+      </md-input-container>
+
+      <md-input-container class="example-full-width">
+        <input md-input #servicelocation placeholder="servicelocation">
+      </md-input-container>
+
+      <md-input-container class="example-full-width">
+        <input md-input #noOfSeats placeholder="noOfSeats">
+      </md-input-container>
+
+      <button md-button (click)="saveVan(selectedAreaObj._id,selectedDriverObj,vanname.value,lisence.value,nic.value,servicelocation.value,noOfSeats.value,selectedRoute._id)">Create</button>
+
+    </div>
+
+    <div fxFlex="50%" class="flex-container">
+  
+
+       <ng-table 
+        [config]="config" 
+        (tableChanged)="onChangeTable(config)" 
+        (cellClicked)="onCellClick($event)" 
+        [rows]="rows" 
+        [columns]="columns">
+       </ng-table>
+
+
+       <pre *ngIf="config.paging" class="card card-block card-header">Page: {{page}} / {{numPages}}</pre>
+   
+  <!--<table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr (click)="SelectedStudent(d)" *ngFor="let  d of data">
+            <td>
+              <md-checkbox type="checkbox" [(ngModel)]="d.VanAssign"></md-checkbox>
+
+            </td>
+            <td>{{d.name}} </td>
+            <td>{{d.VanAssign}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+      <div>
+        <md-select placeholder="Van" [(ngModel)]="selectedVanObj" (ngModelChange)="onChangeVan($event)">
+          <md-option [value]="v" *ngFor="let v of allVans">{{v.name}}</md-option>
+        </md-select>
+        <button md-button (click)="AssignStudent(selectedVanObj)">Assing Van</button>
+        <md-select placeholder="Driver" [(ngModel)]="selectedDriver" (ngModelChange)="onChangeDriver($event)">
+         <md-option [value]="d" *ngFor="let d of drivers">{{d.driverName}}</md-option>
+        </md-select>
+        <button md-button (click)="AssignDriver(selectedVanObj._id,selectedDriver)">Assing Driver</button>
+      </div>-->
+
+    </div>
+
+
+
+
+
+
+
+
+      
+  </div>
+   
+    <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr (click)="SelectedStudent(d)" *ngFor="let  d of data">
+            <td>
+              <md-checkbox type="checkbox" [(ngModel)]="d.VanAssign"></md-checkbox>
+
+            </td>
+            <td>{{d.name}} </td>
+            <td>{{d.VanAssign}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+       <div>
+        <md-select placeholder="Van" [(ngModel)]="selectedVanObj" (ngModelChange)="onChangeVan($event)">
+          <md-option [value]="v" *ngFor="let v of allVans">{{v.name}}</md-option>
+        </md-select>
+        <button md-button (click)="AssignStudent(selectedVanObj)">Assing Van</button>
+        <md-select placeholder="Driver" [(ngModel)]="selectedDriver" (ngModelChange)="onChangeDriver($event)">
+         <md-option [value]="d" *ngFor="let d of drivers">{{d.driverName}}</md-option>
+        </md-select>
+        <button md-button (click)="AssignDriver(selectedVanObj._id,selectedDriver)">Assing Driver</button>
+      </div>
+
+
+</md-sidenav-container>
+
+<!--{{selectedDeriverObj | json}}-->
+
+<!--
+Email : <input type="text" #email />
+
+Password : <input type="text" #password />-->
+
+<!--
+
+<md-input-container class="example-full-width">
+  <input md-input #password placeholder="password">
+</md-input-container>
+
+
+<md-input-container class="example-full-width">
+  <input md-input #email placeholder="email">
+</md-input-container>
+
+
+<button md-button (click)="saveVan(email.value,password.value)">Create</button>-->

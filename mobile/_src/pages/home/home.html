@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Child Tracking
+
+      <button ion-button (click)="logout()">logout</button>
+      <button ion-button (click)="refresh()">refresh</button>
+      <button ion-button  (click)="setLocation()" >set Location</button>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+  <div class="map-wrapper">
+    
+    <map [isPickUpRequested]="isPickUpRequested" [isDriver]="isDriver"></map>
+    
+  </div>
+</ion-content>  

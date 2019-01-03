@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-buttons left>
+      <button menuToggle ion-button icon-only>
+        <ion-icon  name="md-menu"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons end>
+      <!--*ngIf="startTripOption" -->
+      <button *ngIf="startTripOption && isDriver" ion-button (click)="startTrip()">        
+        Start Trip       
+        </button>
+
+      <button *ngIf="!startTripOption && isDriver" ion-button (click)="endTrip()">        
+        End Trip       
+        </button>
+
+      <button ion-button icon-only (click)="setLocation()">
+        <ion-icon name="bookmark"></ion-icon>
+      </button>
+
+      <button ion-button icon-only (click)="refresh()">
+        <ion-icon name="refresh-circle"></ion-icon>
+      </button>
+
+
+      <button ion-button icon-only (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+        </button>
+
+
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+
+
+<!--  <div>
+        <button md-button start>Toggle Menu</button>
+        <button md-button end (click)="refresh()">
+        <ion-icon name="refresh-circle"></ion-icon>
+      </button>
+        <button md-button end  (click)="setLocation()">
+        <ion-icon name="bookmark"></ion-icon>
+      </button>
+        <button md-button *ngIf="startTripOption" (click)="startTrip()">        
+        Start Trip       
+        </button>
+        <button md-button  (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+        </button>
+      </div>-->
+
+<ion-content class="home">
+
+  <div class="map-wrapper">
+
+    <!--<map [userData]="userData" [isPickUpRequested]="isPickUpRequested" [isDriver]="isDriver"></map>-->
+    <map [userData]="userData" [isPickUpRequested]="isPickUpRequested" [isDriver]="isDriver"></map>
+  </div>
+
+</ion-content>

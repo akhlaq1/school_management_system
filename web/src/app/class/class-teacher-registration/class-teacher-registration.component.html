@@ -1,0 +1,82 @@
+<!--<div layout="column">
+  <div style="height:44px" flex></div>
+  <section layout="column" layout-sm="column" layout-align="center center">
+
+    <div>
+      <button style="background-color:rgb(255,210,0)" md-fab class="md-fab" aria-label="Eat cake">
+      <i md-icon></i>
+    </button>
+    </div>
+
+    <div>
+      <md-toolbar>
+        <button md-button class="md-icon-button" aria-label="Settings">
+         <b>Teacher Class Enrollement</b>
+        </button>
+      </md-toolbar>
+    </div>
+
+
+    <div>
+      class
+      <div>
+        <ng2-dropdown>
+          <ng2-dropdown-button>
+            Open Menu
+          </ng2-dropdown-button>
+          <ng2-dropdown-menu>
+            <ng2-menu-item>
+              hasan
+            </ng2-menu-item>
+          </ng2-dropdown-menu>
+        </ng2-dropdown>
+      </div>
+    </div>
+
+
+
+    <div>
+      teacher
+      <ng2-dropdown>
+        <ng2-dropdown-button>
+          Open Menu
+        </ng2-dropdown-button>
+        <ng2-dropdown-menu>
+          <ng2-menu-item>
+            hasan
+          </ng2-menu-item>
+        </ng2-dropdown-menu>
+      </ng2-dropdown>
+    </div>
+
+
+
+
+    <div>
+      <button md-raised-button class="md-raised md-primary">Assign</button>
+    </div>
+  </section>
+</div>-->
+
+
+<div fxLayout="column" fxLayoutAlign="center center">
+
+  <div (click)="updateClass()" class="flex-item margin ">
+    <md-select placeholder="class " [(ngModel)]="class ">
+      <md-option *ngFor="let class of classes " [value]="class ">{{class.name}}</md-option>
+    </md-select>
+  </div>
+
+  <div (click)="updateTeacher()" class="flex-item margin ">
+    <md-select placeholder="teachers " [(ngModel)]="teacher ">
+      <md-option *ngFor="let teacher of teachers " [value]="teacher ">{{teacher.name}}</md-option>
+    </md-select>
+  </div>
+  
+
+  <div class="flex-item ">
+
+    <button md-fab (click)="assignTeacher(class._id,teacher._id) "><md-icon>check</md-icon></button>
+  </div>
+
+</div>

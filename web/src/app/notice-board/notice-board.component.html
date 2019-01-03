@@ -1,0 +1,32 @@
+<!--<md-list>
+  <md-list-item *ngFor="let message of messages">
+    <img md-list-avatar src="{{message.src}}" alt="...">
+    <h3 md-line> {{message.displayName}} </h3>
+    <p md-line>
+      <span> {{message.subject}} </span>
+      <span class="demo-2"> -- {{message.content}} </span>
+    </p>
+  </md-list-item>
+</md-list>-->
+
+
+<div fxLayout="column">
+  <md-input-container class="example-full-width">
+    <input md-input #subject placeholder="subject">
+  </md-input-container>
+
+  <md-input-container class="example-full-width">
+    <input md-input #content placeholder="content">
+  </md-input-container>
+
+
+  <div *ngFor="let message of messages">
+    <span> {{message.subject}} </span>
+    <span> {{message.content}} </span>
+  </div>
+
+  <div>{{data}}</div>
+  <div>{{data0}}</div>
+
+  <button md-button (click)="submit(subject.value,content.value)">Submit</button>
+</div>

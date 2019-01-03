@@ -1,0 +1,116 @@
+<md-toolbar> <button (click)="isOpened()" md-mini-fab><md-icon>list</md-icon></button>Eschool</md-toolbar>
+
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side" opened="{{Opened}}">
+
+    <md-nav-list>
+      <md-list-item>
+        <img md-list-avatar src="./../images/teacher.svg" alt="...">
+        <a [routerLink]="['/teacher']">Teachers</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/paper-plane.svg" alt="...">
+        <a [routerLink]="['/message']">Messages</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/reading.svg" alt="...">
+        <a [routerLink]="['/student']">Students</a>
+      </md-list-item>
+
+      <md-list-item><img md-list-avatar src="./../images/blackboard.svg" alt="...">
+        <a [routerLink]="['/class']">Class</a>
+      </md-list-item>
+      <md-list-item><img md-list-avatar src="./../images/translator.svg" alt="...">
+        <a [routerLink]="['/subject']">Subject</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/couple.svg" alt="...">
+        <a [routerLink]="['/parent']">Parents</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/van.svg" alt="...">
+        <a [routerLink]="['/van']">Van</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/radar.svg" alt="...">
+        <a [routerLink]="['/area']">Area</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/email.svg" alt="...">
+        <a [routerLink]="['/email']">Email</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/location-pointer.svg" alt="...">
+        <a [routerLink]="['/map']">Map</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/taxi-driver.svg" alt="...">
+        <a [routerLink]="['/driver']">Driver</a>
+      </md-list-item>
+
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/browser.svg" alt="...">
+        <a [routerLink]="['/setting']">Setting</a>
+      </md-list-item>
+
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/logout.svg" alt="...">
+        <a (click)="logout()">LogOut</a>
+      </md-list-item>
+
+
+
+    </md-nav-list>
+
+  </md-sidenav>
+
+      <div id="map"></div>
+
+       <div class="flex-container" fxLayout="column" fxLayout.xs="column">
+
+         <div  fxLayout="row">
+             
+             Area : <input type="text" #routeName /> 
+             <button  (click)="saveStop(routeName.value)">save route</button>
+
+         </div>
+
+         <div  fxLayout="column" >
+           <div fxLayout="row">  title :  <input #title type="text" /></div>        
+           <select #waypoints multiple id="waypoints">  
+              <option *ngFor= "let waypoint of waypts">
+               {{waypoint.location}} 
+              </option>  
+           </select>
+          distination :
+        
+          <select  [(ngModel)]="destination">
+             <option [value]="waypoint.location" *ngFor= "let waypoint of waypts">
+                {{waypoint.location}} 
+             </option>
+          </select>
+
+
+           <button (click)="submit(waypoints)">Draw Route</button>
+             <button (click)="saveRoute(title)">Save Route</button>
+         </div>
+
+         <div>
+          <div id="directions-panel"></div>
+         </div>
+
+         <div>
+           <button>All Routes</button>
+           <button>Remove All Routes</button>
+         </div>
+
+       </div>
+
+      
+   
+</md-sidenav-container>

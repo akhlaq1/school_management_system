@@ -1,0 +1,127 @@
+<md-toolbar> <button (click)="isOpened()" md-mini-fab><md-icon>list</md-icon></button>Eschool</md-toolbar>
+
+<md-sidenav-container>
+  <md-sidenav #sidenav mode="side" opened="{{Opened}}">
+
+    <md-nav-list>
+      <md-list-item>
+        <img md-list-avatar src="./../images/teacher.svg" alt="...">
+        <a [routerLink]="['/teacher']">Teachers</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/paper-plane.svg" alt="...">
+        <a [routerLink]="['/message']">Messages</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/reading.svg" alt="...">
+        <a [routerLink]="['/student']">Students</a>
+      </md-list-item>
+
+      <md-list-item><img md-list-avatar src="./../images/blackboard.svg" alt="...">
+        <a [routerLink]="['/class']">Class</a>
+      </md-list-item>
+      <md-list-item><img md-list-avatar src="./../images/translator.svg" alt="...">
+        <a [routerLink]="['/subject']">Subject</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/couple.svg" alt="...">
+        <a [routerLink]="['/parent']">Parents</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/van.svg" alt="...">
+        <a [routerLink]="['/van']">Van</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/radar.svg" alt="...">
+        <a [routerLink]="['/area']">Area</a>
+      </md-list-item>
+      <md-list-item>
+        <img md-list-avatar src="./../images/email.svg" alt="...">
+        <a [routerLink]="['/email']">Email</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/location-pointer.svg" alt="...">
+        <a [routerLink]="['/map']">Map</a>
+      </md-list-item>
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/taxi-driver.svg" alt="...">
+        <a [routerLink]="['/driver']">Driver</a>
+      </md-list-item>
+
+
+    <!--  <md-list-item>
+        <img md-list-avatar src="./../images/browser.svg" alt="...">
+        <a [routerLink]="['/setting']">Setting</a>
+      </md-list-item>
+-->
+
+      <md-list-item>
+        <img md-list-avatar src="./../images/logout.svg" alt="...">
+        <a (click)="logout()">LogOut</a>
+      </md-list-item>
+
+
+
+    </md-nav-list>
+
+  </md-sidenav>
+
+
+  <div class="flex-item " fxLayoutAlign="center center">
+    <md-input-container class="example-full-width">
+      <input #body md-input placeholder="Body" value="">
+    </md-input-container>
+  </div>
+
+  <div class="flex-container" fxLayout="row">
+
+    <div fxFlex="50%">
+      <md-toolbar class="customn">Teacher List</md-toolbar>
+      <md-list>
+        <ng-table (cellClicked)="selectTeacher($event)" [config]="configTeacher" [rows]="rowsTeacher" [columns]="columnsTeacher">
+        </ng-table>
+
+        <!--      <md-list-item *ngFor="let teacher of teachers">
+        <md-checkbox (click)="selectTeacher(teacher)">{{teacher.phoneNo}}</md-checkbox>
+      </md-list-item>-->
+      </md-list>
+    </div>
+
+
+    <div fxFlex="50%">
+      <md-toolbar class="customn">Student List</md-toolbar>
+      <md-list>
+        <ng-table (cellClicked)="selectStudent($event)" [config]="configStudent" [rows]="rowsStudent" [columns]="columnsStudent">
+        </ng-table>
+        <!--      <md-list-item *ngFor="let student of students">
+        <md-checkbox (click)="selectStudent(student)">{{student.phoneNo}}</md-checkbox>
+      </md-list-item>-->
+      </md-list>
+    </div>
+
+  </div>
+  <div class="flex-container">
+    <md-toolbar class="customn">Selected List</md-toolbar>
+    <md-list>
+      <ng-table [config]="configSelectedTeacher" [rows]="rowsSelectedTeacher" [columns]="columnsSelectedTeacher">
+      </ng-table>
+
+      <!--      <md-list-item *ngFor="let teacher of teachers">
+        <md-checkbox (click)="selectTeacher(teacher)">{{teacher.phoneNo}}</md-checkbox>
+      </md-list-item>-->
+    </md-list>
+  </div>
+
+
+
+  <div class="flex-item " fxLayoutAlign="center center">
+    <button md-fab (click)="sendSMS(body.value)"><md-icon>check</md-icon></button>
+  </div>
+
+
+
+
+</md-sidenav-container>

@@ -1,0 +1,32 @@
+<!--<select  name="" id="" [(ngModel)]="teacher">
+  <option  *ngFor="let teacher of teachers" [ngValue]="teacher">{{teacher.name}}</option>  
+</select>
+
+
+<select  name="" id="" [(ngModel)]="subject">
+  <option  *ngFor="let subject of subjects" [ngValue]="subject">{{subject.name}}</option>  
+</select>
+
+
+<button (click)="assignSubject(subject._id ,teacher._id)">Assign Subject</button>
+
+-->
+
+<div class="flex-item margin">
+  <md-select placeholder="subject" [(ngModel)]="subject">
+    <md-option *ngFor="let subject of subjects" [value]="subject">{{subject.name}}</md-option>
+  </md-select>
+</div>
+
+
+<div class="flex-item margin">
+  <md-select placeholder="Teachers" [(ngModel)]="teacher">
+    <md-option *ngFor="let teacher of teachers" [value]="teacher">
+      {{teacher.name}}
+    </md-option>
+  </md-select>
+</div>
+
+<div class="flex-item">
+  <button md-fab (click)="assignSubject(subject._id ,teacher._id)"><md-icon>check</md-icon></button>
+</div>

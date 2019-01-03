@@ -1,0 +1,9 @@
+
+.form-border{
+   border: solid 1px #dedfe4;   
+   border-top:0px;
+   background-color: white;
+}
+.top-height{
+  height: 44px;  
+}

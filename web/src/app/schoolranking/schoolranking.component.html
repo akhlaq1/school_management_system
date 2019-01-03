@@ -1,0 +1,46 @@
+<div *ngIf="_id" style="text-align:right">
+    <button class="assert" md-fab (click)="Logout()">Logout</button>
+</div>
+<div fxLayout="column">
+    <md-card fxFlex>
+        <md-card-header style="margin-bottom: 3em;line-height: 6;">
+            <img md-card-avatar [src]="profile" width="100px" height="100px" />
+
+            <image-upload  style="line-height: 2;" *ngIf="isEdit" (onFileUploadFinish)="imageUploaded($event)" [url]="'/UploadImage'"></image-upload>
+            <div><a *ngIf="isEdit" (click)="doEdit()"> done </a></div>
+            <div *ngIf="!isEdit"><a (click)="doEdit()"> Edit </a></div>
+        </md-card-header>
+    </md-card>
+
+    <div>
+        <md-input-container>
+            <input [(ngModel)]="search" md-input placeholder="search">
+        </md-input-container>
+    </div>
+
+</div>
+
+<div fxLayout="column" *ngFor="let school of schools | searchpipe:search   ">
+
+    <div fxLayout="row">
+        <div fxFlex="80%" style="font-size: 20px;padding:10px 0px 10px 10px"> {{school.username}}</div>
+        <div fxLayoutAlign="center center" style="font-size: 20px;padding:10px 0px 10px 10px" fxLayout="column" fxFlex="20%">
+
+            <button *ngIf="_id" (click)="upVote(school._id)" md-mini-fab><md-icon>keyboard_arrow_up</md-icon></button>
+            <div> {{school?.voters.length}}</div>
+            <!--<div> {{school.rank}}</div>-->
+            <!--  <button (click)="downVote(school._id)" md-mini-fab><md-icon>keyboard_arrow_down</md-icon></button>-->
+
+        </div>
+    </div>
+    <div fxLayout="row">
+        <md-card fxFlex fxLayout="row">
+            <span *ngFor="let i of otherImages">
+                <img md-card-avatar [src]="i" width="100px" height="100px" />
+            </span>
+        </md-card>
+    </div>
+
+
+
+</div>
